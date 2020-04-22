@@ -1,5 +1,6 @@
 package com.example.elevator.service.impl;
 
+import com.example.elevator.model.Elevator;
 import com.example.elevator.service.ElevatorService;
 import org.springframework.stereotype.Service;
 
@@ -9,4 +10,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class ElevatorServiceImpl implements ElevatorService {
 
+    @Override
+    public Elevator useElevator(int floor, int direction) {
+
+        return null;
+    }
 }

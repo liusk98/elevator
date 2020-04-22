@@ -1,4 +1,4 @@
-package com.example.elevator.model;
+package com.example.elevator.enumutils;
 
 /**
  * 楼层
